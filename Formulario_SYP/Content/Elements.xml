@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Content">
+    <File Path="Content\App.css" Url="Content/App.css" ReplaceContent="TRUE" />
+    <File Path="Content\css\metro-bootstrap-responsive.css" Url="Content/css/metro-bootstrap-responsive.css" ReplaceContent="TRUE" />
+    <File Path="Content\css\metro-bootstrap.css" Url="Content/css/metro-bootstrap.css" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\iconFont.dev.svg" Url="Content/fonts/iconFont.dev.svg" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\iconFont.eot" Url="Content/fonts/iconFont.eot" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\iconFont.svg" Url="Content/fonts/iconFont.svg" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\iconFont.ttf" Url="Content/fonts/iconFont.ttf" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\iconFont.woff" Url="Content/fonts/iconFont.woff" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\metroSysIcons.svg" Url="Content/fonts/metroSysIcons.svg" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\metroSysIcons.ttf" Url="Content/fonts/metroSysIcons.ttf" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\metroSysIcons.woff" Url="Content/fonts/metroSysIcons.woff" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\OpenSans-Bold.woff" Url="Content/fonts/OpenSans-Bold.woff" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\OpenSans-Light.woff" Url="Content/fonts/OpenSans-Light.woff" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\OpenSans.woff" Url="Content/fonts/OpenSans.woff" ReplaceContent="TRUE" />
+    <File Path="Content\fonts\PTSerif-Caption.woff" Url="Content/fonts/PTSerif-Caption.woff" ReplaceContent="TRUE" />
+    <File Path="Content\js\jquery-1.9.1.min.js" Url="Content/js/jquery-1.9.1.min.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\jquery-2.1.4.min.js" Url="Content/js/jquery-2.1.4.min.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-accordion.js" Url="Content/js/metro-accordion.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-button-set.js" Url="Content/js/metro-button-set.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-calendar.js" Url="Content/js/metro-calendar.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-carousel.js" Url="Content/js/metro-carousel.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-core.js" Url="Content/js/metro-core.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-countdown.js" Url="Content/js/metro-countdown.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-date-format.js" Url="Content/js/metro-date-format.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-datepicker.js" Url="Content/js/metro-datepicker.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-dialog.js" Url="Content/js/metro-dialog.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-drag-tile.js" Url="Content/js/metro-drag-tile.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-dropdown.js" Url="Content/js/metro-dropdown.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-fluentmenu.js" Url="Content/js/metro-fluentmenu.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-global.js" Url="Content/js/metro-global.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-hint.js" Url="Content/js/metro-hint.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-initiator.js" Url="Content/js/metro-initiator.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-input-control.js" Url="Content/js/metro-input-control.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-listview.js" Url="Content/js/metro-listview.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-live-tile.js" Url="Content/js/metro-live-tile.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-loader.js" Url="Content/js/metro-loader.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-locale.js" Url="Content/js/metro-locale.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-notify.js" Url="Content/js/metro-notify.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-panel.js" Url="Content/js/metro-panel.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-plugin-template.js" Url="Content/js/metro-plugin-template.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-popover.js" Url="Content/js/metro-popover.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-progressbar.js" Url="Content/js/metro-progressbar.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-pull.js" Url="Content/js/metro-pull.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-rating.js" Url="Content/js/metro-rating.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-scroll.js" Url="Content/js/metro-scroll.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-slider.js" Url="Content/js/metro-slider.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-stepper.js" Url="Content/js/metro-stepper.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-streamer.js" Url="Content/js/metro-streamer.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-tab-control.js" Url="Content/js/metro-tab-control.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-table.js" Url="Content/js/metro-table.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-tile-transform.js" Url="Content/js/metro-tile-transform.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-times.js" Url="Content/js/metro-times.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-touch-handler.js" Url="Content/js/metro-touch-handler.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-treeview.js" Url="Content/js/metro-treeview.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\metro-wizard.js" Url="Content/js/metro-wizard.js" ReplaceContent="TRUE" />
+    <File Path="Content\min\iconFont.min.css" Url="Content/min/iconFont.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\min\jquery-1.11.3.min.js" Url="Content/min/jquery-1.11.3.min.js" ReplaceContent="TRUE" />
+    <File Path="Content\min\jquery.widget.min.js" Url="Content/min/jquery.widget.min.js" ReplaceContent="TRUE" />
+    <File Path="Content\min\metro-bootstrap-responsive.min.css" Url="Content/min/metro-bootstrap-responsive.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\min\metro-bootstrap.min.css" Url="Content/min/metro-bootstrap.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\min\metro.min.js" Url="Content/min/metro.min.js" ReplaceContent="TRUE" />
+    <File Path="Content\min\MultiFile.js" Url="Content/min/MultiFile.js" ReplaceContent="TRUE" />
+</Module>
+</Elements>

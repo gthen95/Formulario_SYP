@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\DdlBuild.js" Url="Scripts/DdlBuild.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\FormHelper.js" Url="Scripts/FormHelper.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\FormLoader.js" Url="Scripts/FormLoader.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\GetUserProfile.js" Url="Scripts/GetUserProfile.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\HideFields.js" Url="Scripts/HideFields.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\SendToList.js" Url="Scripts/SendToList.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\TestSend.js" Url="Scripts/TestSend.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\xmlBuilder.js" Url="Scripts/xmlBuilder.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\_references.js" Url="Scripts/_references.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EB5565ED-8787-46E1-84F4-1AD394262894}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Formulario_SYP</RootNamespace>
+    <AssemblyName>Formulario_SYP</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{77974cf4-ecc7-4521-8c92-5eefb81738e1}</AppFeaturePartId>
+    <WspPartId>{713e594f-cf92-4709-930d-537c38d5f74f}</WspPartId>
+    <CspkgPartId>{132b1c0e-c243-4cd8-84cc-c7180e046163}</CspkgPartId>
+    <SqlPackagePartId>{fd7243d1-63c8-49c7-8564-cf983b24e33f}</SqlPackagePartId>
+    <ActiveDeploymentConfiguration>Deploy App for SharePoint</ActiveDeploymentConfiguration>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="ClientWebPart1\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5b3fd6e3-3094-4dc9-8d27-ed511f3d6e0a}</SharePointProjectItemId>
+    </None>
+    <Content Include="ClientWebPart1\Elements.xml">
+      <SubType>ParentWebElementManifest</SubType>
+      <OpcRelationship>feature-elementmanifest</OpcRelationship>
+    </Content>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a96f9fd1-c09c-488f-a76c-65b330fae42a}</SharePointProjectItemId>
+    </None>
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{63076feb-16d0-474f-9ba3-31e5975f369e}</SharePointProjectItemId>
+    </None>
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{01c2ea41-4c03-4e39-b79d-80e66d0d1355}</SharePointProjectItemId>
+    </None>
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d8711ef8-0838-4215-a5c3-c6392832b7d6}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+    <Content Include="Images\Elements.xml" />
+    <Content Include="Pages\Elements.xml" />
+    <Content Include="Scripts\Elements.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\App.css" />
+    <Content Include="Content\css\metro-bootstrap-responsive.css" />
+    <Content Include="Content\css\metro-bootstrap.css" />
+    <Content Include="Content\fonts\iconFont.dev.svg" />
+    <Content Include="Content\fonts\iconFont.eot" />
+    <Content Include="Content\fonts\iconFont.svg" />
+    <Content Include="Content\fonts\iconFont.ttf" />
+    <Content Include="Content\fonts\iconFont.woff" />
+    <Content Include="Content\fonts\metroSysIcons.svg" />
+    <Content Include="Content\fonts\metroSysIcons.ttf" />
+    <Content Include="Content\fonts\metroSysIcons.woff" />
+    <Content Include="Content\fonts\OpenSans-Bold.woff" />
+    <Content Include="Content\fonts\OpenSans-Light.woff" />
+    <Content Include="Content\fonts\OpenSans.woff" />
+    <Content Include="Content\fonts\PTSerif-Caption.woff" />
+    <Content Include="Content\js\jquery-1.9.1.min.js" />
+    <Content Include="Content\js\jquery-2.1.4.min.js" />
+    <Content Include="Content\js\metro-accordion.js" />
+    <Content Include="Content\js\metro-button-set.js" />
+    <Content Include="Content\js\metro-calendar.js" />
+    <Content Include="Content\js\metro-carousel.js" />
+    <Content Include="Content\js\metro-core.js" />
+    <Content Include="Content\js\metro-countdown.js" />
+    <Content Include="Content\js\metro-date-format.js" />
+    <Content Include="Content\js\metro-datepicker.js" />
+    <Content Include="Content\js\metro-dialog.js" />
+    <Content Include="Content\js\metro-drag-tile.js" />
+    <Content Include="Content\js\metro-dropdown.js" />
+    <Content Include="Content\js\metro-fluentmenu.js" />
+    <Content Include="Content\js\metro-global.js" />
+    <Content Include="Content\js\metro-hint.js" />
+    <Content Include="Content\js\metro-initiator.js" />
+    <Content Include="Content\js\metro-input-control.js" />
+    <Content Include="Content\js\metro-listview.js" />
+    <Content Include="Content\js\metro-live-tile.js" />
+    <Content Include="Content\js\metro-loader.js" />
+    <Content Include="Content\js\metro-locale.js" />
+    <Content Include="Content\js\metro-notify.js" />
+    <Content Include="Content\js\metro-panel.js" />
+    <Content Include="Content\js\metro-plugin-template.js" />
+    <Content Include="Content\js\metro-popover.js" />
+    <Content Include="Content\js\metro-progressbar.js" />
+    <Content Include="Content\js\metro-pull.js" />
+    <Content Include="Content\js\metro-rating.js" />
+    <Content Include="Content\js\metro-scroll.js" />
+    <Content Include="Content\js\metro-slider.js" />
+    <Content Include="Content\js\metro-stepper.js" />
+    <Content Include="Content\js\metro-streamer.js" />
+    <Content Include="Content\js\metro-tab-control.js" />
+    <Content Include="Content\js\metro-table.js" />
+    <Content Include="Content\js\metro-tile-transform.js" />
+    <Content Include="Content\js\metro-times.js" />
+    <Content Include="Content\js\metro-touch-handler.js" />
+    <Content Include="Content\js\metro-treeview.js" />
+    <Content Include="Content\js\metro-wizard.js" />
+    <Content Include="Content\min\iconFont.min.css" />
+    <Content Include="Content\min\jquery-1.11.3.min.js" />
+    <Content Include="Content\min\jquery.widget.min.js" />
+    <Content Include="Content\min\metro-bootstrap-responsive.min.css" />
+    <Content Include="Content\min\metro-bootstrap.min.css" />
+    <Content Include="Content\min\metro.min.js" />
+    <Content Include="Content\min\MultiFile.js" />
+    <Content Include="Images\AppIcon.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\Universal_PP.png" />
+    <Content Include="Pages\ClientWebPart.aspx" />
+    <Content Include="Pages\Default.aspx" />
+    <Content Include="Scripts\App.js" />
+    <Content Include="Scripts\DdlBuild.js" />
+    <Content Include="Scripts\FormHelper.js" />
+    <Content Include="Scripts\FormLoader.js" />
+    <Content Include="Scripts\GetUserProfile.js" />
+    <Content Include="Scripts\HideFields.js" />
+    <Content Include="Scripts\SendToList.js" />
+    <Content Include="Scripts\TestSend.js" />
+    <Content Include="Scripts\xmlBuilder.js" />
+    <Content Include="Scripts\_references.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{4554b8a3-516e-4683-bf7f-e87b0df568ac}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{8dc5788d-732b-4f7c-9441-08e54bffe18a}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="4554b8a3-516e-4683-bf7f-e87b0df568ac" 
+        solutionId="4554b8a3-516e-4683-bf7f-e87b0df568ac" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="Formulario_SYP"
+        sharePointProductVersion="15.0">
+  <features>
+        <featureReference itemId="8dc5788d-732b-4f7c-9441-08e54bffe18a" />
+  </features>
+</package>
